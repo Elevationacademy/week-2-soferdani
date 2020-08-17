@@ -1,0 +1,82 @@
+#chat {
+    height: 100vh;
+    width: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "s m m m m"
+    "s m m m m"
+    "s m m m m"
+    "s m m m m"
+    "s l l l l"
+    ;
+}
+
+#friends {
+    grid-area: s;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+/* .hed1 {
+    grid-area: a;
+    display: grid;
+}
+
+.name {
+    grid-area: b;
+    display: grid; */
+
+
+
+#chatbox {
+    grid-area: m;
+    background-color: whitesmoke;
+    display: grid;
+}
+
+#input {
+    grid-area: l;
+    background-color: white;
+    display: grid;
+    grid-template-areas: "a a a a h";
+}
+
+#theInput {
+    grid-area: a;
+}
+
+#send {
+    grid-area: h;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+.text-container.right{
+    justify-content: right;
+    justify-self: end;
+    background-color: greenyellow;
+    align-self: center;
+    border-radius: 5%;
+    margin: 2%;
+}   
+
+.text-container.left{
+    justify-content: left;
+    background-color: silver;
+    justify-self: start;
+    align-self: center;
+    border-radius: 5%;
+    margin: 2%;
+}
+
+p.time {
+    margin-left: 15px;
+}
+
+.text-container {
+    display: grid;
+    grid-template-areas: "h t";
+}

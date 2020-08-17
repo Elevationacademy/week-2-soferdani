@@ -1,0 +1,92 @@
+/* firstEXE */
+/* p {
+    background-color: blueviolet;
+} */
+/* 
+#container{
+    height: 100vh;
+    width: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "s m"
+    "f f"
+
+}
+
+
+.head{
+    grid-area: h;
+    background-color: blueviolet;
+
+}
+
+.side-nav{
+    grid-area: s;
+    background-color: burlywood;
+}
+
+.main{
+    grid-area: m;
+    background-color: darkblue;
+
+}
+
+.foot{
+    grid-area: f;
+    background-color: orangered;
+
+} */
+
+/* SecendEXE */
+
+
+/* #nav-container{
+    display: grid;
+    background-color: #2c3e50;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.main-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.nav-item{
+    display: grid;
+    align-content: center;
+    color: #ecf0f1;
+    height: 100%;
+}
+.logo-contauber{
+    display: grid;
+    justify-content: right;
+}
+ */
+
+
+ #serach-conteiner {
+     display: grid;
+     align-items: center;
+     justify-items: center;
+     grid-template-columns: 1fr 1fr;
+ }
+ .serach-btn {
+     justify-self: left;
+ }
+
+ #results-conteiner {
+     display: grid;
+     grid-gap: 10px;
+     grid-template-columns: repeat(3,1fr);
+ }
+
+ .results {
+     display: grid;
+     height: 100px;
+     background-color: #16a085;
+     text-align: center;
+     border-radius: 4px;
+ }
