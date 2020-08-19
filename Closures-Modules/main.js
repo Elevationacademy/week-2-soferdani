@@ -159,31 +159,31 @@
 //exe3 
 
 
-// const SongsManager = function () {
-//     let songs = { }
-//     let toAdd = "https://www.youtube.com/watch?v="
+const SongsManager = function () {
+    let songs = { }
+    let toAdd = "https://www.youtube.com/watch?v="
 
-//     const addSongTo = function (songName,url) {
-//         let index = url.indexOf("=")
-//         let newRL = url.slice(0,index)
-//         //console.log(newRL)
-//         songs[songName] = newRL
-//     }
+    const addSongTo = function (songName,url) {
+        let index = url.indexOf("=")
+        let newRL = url.slice(0,index)
+        //console.log(newRL)
+        songs[songName] = newRL
+    }
 
-//     const getSongUrl = function (songName) {
+    const getSongUrl = function (songName) {
         
-//         console.log(toAdd + songs[songName])
-//     }
+        console.log(toAdd + songs[songName])
+    }
 
-//     return {
-//         addSong: addSongTo,
-//         getSong: getSongUrl
-//     }
-// }
+    return {
+        addSong: addSongTo,
+        getSong: getSongUrl
+    }
+}
 
-// const songsManager = SongsManager()
-// songsManager.addSong("sax", "https://www.youtube.com/watch?v=3JZ4pnNtyxQ")
-// songsManager.addSong("how long", "https://www.youtube.com/watch?v=CwfoyVa980U")
-// songsManager.addSong("ain't me", "https://www.youtube.com/watch?v=D5drYkLiLI8")
+const songsManager = SongsManager()
+songsManager.addSong("sax", "https://www.youtube.com/watch?v=3JZ4pnNtyxQ")
+songsManager.addSong("how long", "https://www.youtube.com/watch?v=CwfoyVa980U")
+songsManager.addSong("ain't me", "https://www.youtube.com/watch?v=D5drYkLiLI8")
 
-// songsManager.getSong("sax") // should print https://www.youtube.com/watch?v=3JZ4pnNtyxQ
+songsManager.getSong("sax") // should print https://www.youtube.com/watch?v=3JZ4pnNtyxQ

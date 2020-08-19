@@ -1,0 +1,21 @@
+/* .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: chocolate;
+    display: inline-block
+}
+
+.div {
+    width: 400px;
+    height: 400px;
+} */
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    display: inline-block;
+  }
+  
